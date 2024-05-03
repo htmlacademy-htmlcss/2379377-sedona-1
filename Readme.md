@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алексей Сухов](https://up.htmlacademy.ru/htmlcss-individual/1/user/2379377).
-* Наставник: `Неизвестно`.
+* Наставник: [Михаил Данюшин](https://htmlacademy.ru/profile/id225742).
 
 ---
 
