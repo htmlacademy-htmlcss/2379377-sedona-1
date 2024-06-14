@@ -113,3 +113,38 @@ h2 {
 .service-item-food {
   background: none;
 }
+
+.inner-header-title {
+  font-size: 32px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+.breadcrumbs {
+  color: #000000;
+}
+
+.breadcrumbs-link {
+  color: inherit;
+}
+
+.product-card {
+  background-color: #ffffff;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-weight: 700;
+  color: #242424;
+}
+
+.product-card-price {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  color: #814b18;
+  text-transform: uppercase;
+}
