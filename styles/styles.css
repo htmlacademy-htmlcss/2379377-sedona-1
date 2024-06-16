@@ -39,8 +39,8 @@ body {
 }
 
 .page-header {
-   color: #000000;
-   background: #ffffff;
+  color: #000000;
+  background: #ffffff;
 }
 
 .main-index {
@@ -114,8 +114,12 @@ h2 {
   background: none;
 }
 
+.service-description {
+  font-size: 21px;
+}
+
 .inner-header-title {
-  font-size: 32px;
+  font-size: 55px;
   line-height: 35px;
   text-transform: uppercase;
 }
@@ -128,23 +132,19 @@ h2 {
   color: inherit;
 }
 
-.product-card {
+.catalog-filter-title {
+  font-weight: 700;
+}
+
+.hotel-card {
   background-color: #ffffff;
 }
 
-.product-card-link {
+.hotel-card-link {
   text-decoration: none;
 }
 
-.product-card-title {
+.hotel-card-title {
   font-weight: 700;
   color: #242424;
-}
-
-.product-card-price {
-  font-size: 24px;
-  line-height: 29px;
-  font-weight: 700;
-  color: #814b18;
-  text-transform: uppercase;
 }
