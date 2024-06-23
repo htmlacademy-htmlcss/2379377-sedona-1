@@ -33,9 +33,20 @@
 
 body {
   font-family: "PT Sans", sans-serif;
-  font-size: 26px;
+  font-size: 22px;
+  line-height: 26px;
   background-color: white;
   color: #000000;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .page-header {
@@ -53,7 +64,8 @@ body {
 
 .navigetion-link {
   font-family: "PT Sans", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 24px;
   font-weight: 700;
   text-align: center;
   color: #000000;
@@ -62,20 +74,23 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-titel {
-  font-size: 28px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.service-titel {
+.advantages-head {
   text-transform: uppercase;
   font-size: 36px;
+  line-height: 36px;
   font-weight: 700;
 }
 
 h2 {
   text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.advantages-description {
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .advantages-list {
@@ -121,17 +136,22 @@ h2 {
 }
 
 .service-description {
-  font-size: 21px;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .inner-header-title {
-  font-size: 55px;
-  line-height: 35px;
+  font-size: 60px;
+  line-height: 78px;
   text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .breadcrumbs {
-  color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .breadcrumbs-link {
@@ -140,10 +160,31 @@ h2 {
 
 .catalog-filter-title {
   font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.catalog-filter-item {
+  list-style: none;
+}
+
+.control-input {
+  font-size: 18;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.sorting-container {
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .hotel-card {
   list-style: none;
+}
+
+.hotel-item {
   background-color: #ffffff;
 }
 
@@ -154,6 +195,8 @@ h2 {
 .hotel-card-title {
   font-weight: 700;
   color: #242424;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .pagination {
@@ -164,7 +207,8 @@ h2 {
   color: #ffffff;
   background-color: #83B3D3;
   text-decoration: none;
-  line-height: 16px;
+  line-height: 36px;
+  font-size: 20px;
   font-weight: 700;
 }
 
