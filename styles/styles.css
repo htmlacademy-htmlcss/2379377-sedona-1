@@ -47,6 +47,10 @@ body {
   text-align: center;
 }
 
+.navigation-list {
+  list-style: none;
+}
+
 .navigetion-link {
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
@@ -66,6 +70,8 @@ body {
 
 .service-titel {
   text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 h2 {
@@ -137,6 +143,7 @@ h2 {
 }
 
 .hotel-card {
+  list-style: none;
   background-color: #ffffff;
 }
 
@@ -147,4 +154,25 @@ h2 {
 .hotel-card-title {
   font-weight: 700;
   color: #242424;
+}
+
+.pagination {
+  background-color: #ffffff;
+}
+
+.pagination-link {
+  color: #ffffff;
+  background-color: #83B3D3;
+  text-decoration: none;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.pagination-current {
+  color: #242424;
+  background-color: #F2F2F2;
+}
+
+.subscribe {
+  text-align: center;
 }
