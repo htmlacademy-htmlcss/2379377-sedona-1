@@ -3,7 +3,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url(../fonts/ptsans-400.woff2) format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -11,7 +11,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -19,7 +19,7 @@
   font-family: "PT Sans";
   font-style: italic;
   font-weight: 400;
-  src: url(../fonts/ptsans-400-italic.woff2) format("woff2");
+  src: url("../fonts/ptsans-400-italic.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -27,15 +27,15 @@
   font-family: "PT Sans";
   font-style: italic;
   font-weight: 700;
-  src: url(../fonts/ptsans-700-italic.woff2) format("woff2");
+  src: url("../fonts/ptsans-700-italic.woff2") format("woff2");
   font-display: swap;
 }
 
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial" sans-serif;
   font-size: 22px;
   line-height: 26px;
-  background-color: white;
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -63,7 +63,6 @@ body {
 }
 
 .navigetion-link {
-  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -81,7 +80,8 @@ body {
   font-weight: 700;
 }
 
-h2 {
+.advantages-titel,
+.service-titel {
   text-transform: uppercase;
   font-size: 24px;
   line-height: 28px;
